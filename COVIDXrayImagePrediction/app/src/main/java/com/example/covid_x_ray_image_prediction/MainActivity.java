@@ -15,6 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.covid_x_ray_image_prediction.ml.Model;
+import com.example.covid_x_ray_image_prediction.ml.ModelE;
 
 import org.tensorflow.lite.DataType;
 import org.tensorflow.lite.support.tensorbuffer.TensorBuffer;
@@ -56,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
     }
     private void classifyImage(Bitmap image) {
         try {
-            Model model = Model.newInstance(getApplicationContext());
+            ModelE model = ModelE.newInstance(getApplicationContext());
 
             // Creates inputs for reference.
             TensorBuffer inputFeature0 = TensorBuffer.createFixedSize(new int[]{1, 224, 224, 3}, DataType.FLOAT32);
@@ -78,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
             // Runs model inference and gets result.
-            Model.Outputs outputs = model.process(inputFeature0);
+            ModelE.Outputs outputs = model.process(inputFeature0);
             TensorBuffer outputFeature0 = outputs.getOutputFeature0AsTensorBuffer();
 
             float[] confidence = outputFeature0.getFloatArray();

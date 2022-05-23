@@ -31,16 +31,16 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="251dp"
-        android:layout_height="78dp"
+        android:layout_width="315dp"
+        android:layout_height="213dp"
         android:text="Drop XRay Image"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="0.218" />
+        app:layout_constraintVertical_bias="0.136" />
 
     <TextView
         android:id="@+id/textView2"
