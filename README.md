@@ -21,6 +21,8 @@ Contributor: Amy Phan
 
 Reference: [https://github.com/bhattbhavesh91/tflite-tutorials/blob/master/tflite-part-1.ipynb](https://github.com/qubvel/efficientnet)
 
+Reference: https://colab.research.google.com/drive/1UnK_AJHePIKkw-iOxrXn9leQYpUHlAXl?authuser=1
+
 Reference: https://github.com/lkk688
 ## Application
 ### COVIDXrayImagePrediction
@@ -29,5 +31,7 @@ Utilize Android Studio and the TensorFlowLite model to create GUI and predict mo
 Contributor: Kai Wei Yang
 
 Reference: https://www.youtube.com/watch?v=ba42uYJd8nc
+
+Reference: https://youtu.be/bKLL0tAj3GE
 
 Reference: https://github.com/lkk688
