@@ -21,7 +21,7 @@ Contributor: Amy Phan
 
 Reference: [https://github.com/bhattbhavesh91/tflite-tutorials/blob/master/tflite-part-1.ipynb](https://github.com/qubvel/efficientnet)
 
-Reference: https://colab.research.google.com/drive/1UnK_AJHePIKkw-iOxrXn9leQYpUHlAXl?authuser=1
+Reference: [https://colab.research.google.com/drive/1UnK_AJHePIKkw-iOxrXn9leQYpUHlAXl?authuser=1](https://colab.research.google.com/drive/1W0bwQVXDFakcB7FdQbbkrSdsucNWW7we?authuser=1)
 
 Reference: https://github.com/lkk688
 ## Application
