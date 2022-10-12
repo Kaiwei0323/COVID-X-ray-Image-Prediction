@@ -29,6 +29,8 @@ Reference: https://github.com/lkk688
 Utilize Android Studio and the TensorFlowLite model to create GUI and predict model for the users
 
 Contributor: Kai Wei Yang
+### Project Demo
+![image](https://user-images.githubusercontent.com/91507316/195259003-34944f7e-61fb-4f11-a0a7-b6628be9533d.png)
 
 Reference: https://www.youtube.com/watch?v=ba42uYJd8nc
 
